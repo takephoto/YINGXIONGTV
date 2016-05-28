@@ -36,6 +36,7 @@
         shandowView.backgroundColor = [UIColor grayColor] ;
         [self.contentView addSubview:shandowView] ;
         
+        DLog(@"炉石传说") ;
     }
     
     return self ;
