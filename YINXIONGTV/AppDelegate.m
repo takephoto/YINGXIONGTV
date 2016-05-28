@@ -25,6 +25,7 @@
     //如果你应用当前正运行在前台,推送通知将不会被显示
     
     DLog(@"test github") ;
+    DLog(@"你好") ;
     
     return YES;
 }
