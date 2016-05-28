@@ -26,6 +26,7 @@
     
     DLog(@"test github") ;
     DLog(@"你好") ;
+    DLog(@"choose") ;
     
     return YES;
 }
