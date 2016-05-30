@@ -23,6 +23,10 @@
 		DDB792611CF6D25B00BF63CC /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB792601CF6D25B00BF63CC /* CategoryCell.m */; };
 		DDB792651CF6E99600BF63CC /* ColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB792631CF6E99600BF63CC /* ColumnViewController.m */; };
 		DDB792691CF6EEB800BF63CC /* ColumnViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB792681CF6EEB800BF63CC /* ColumnViewCell.m */; };
+		DDF91AF71CFBDCE70064B32B /* LiveCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF91AF61CFBDCE70064B32B /* LiveCollectionViewController.m */; };
+		DDF91AFA1CFBE4220064B32B /* LiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF91AF91CFBE4220064B32B /* LiveCell.m */; };
+		DDF91AFD1CFC29600064B32B /* MineHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF91AFC1CFC29600064B32B /* MineHeadView.m */; };
+		DDF91B001CFC29830064B32B /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF91AFF1CFC29830064B32B /* MineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,14 @@
 		DDB792631CF6E99600BF63CC /* ColumnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnViewController.m; sourceTree = "<group>"; };
 		DDB792671CF6EEB800BF63CC /* ColumnViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnViewCell.h; sourceTree = "<group>"; };
 		DDB792681CF6EEB800BF63CC /* ColumnViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnViewCell.m; sourceTree = "<group>"; };
+		DDF91AF51CFBDCE70064B32B /* LiveCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveCollectionViewController.h; sourceTree = "<group>"; };
+		DDF91AF61CFBDCE70064B32B /* LiveCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveCollectionViewController.m; sourceTree = "<group>"; };
+		DDF91AF81CFBE4220064B32B /* LiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveCell.h; sourceTree = "<group>"; };
+		DDF91AF91CFBE4220064B32B /* LiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveCell.m; sourceTree = "<group>"; };
+		DDF91AFB1CFC29600064B32B /* MineHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineHeadView.h; sourceTree = "<group>"; };
+		DDF91AFC1CFC29600064B32B /* MineHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineHeadView.m; sourceTree = "<group>"; };
+		DDF91AFE1CFC29830064B32B /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		DDF91AFF1CFC29830064B32B /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,10 @@
 			children = (
 				DD35B3F61CF11668004B5E6D /* LiveNavigationController.h */,
 				DD35B3F71CF11668004B5E6D /* LiveNavigationController.m */,
+				DDF91AF51CFBDCE70064B32B /* LiveCollectionViewController.h */,
+				DDF91AF61CFBDCE70064B32B /* LiveCollectionViewController.m */,
+				DDF91AF81CFBE4220064B32B /* LiveCell.h */,
+				DDF91AF91CFBE4220064B32B /* LiveCell.m */,
 			);
 			name = "直播";
 			sourceTree = "<group>";
@@ -130,6 +146,10 @@
 			children = (
 				DD35B3F91CF11A7C004B5E6D /* PersonNavigationController.h */,
 				DD35B3FA1CF11A7C004B5E6D /* PersonNavigationController.m */,
+				DDF91AFB1CFC29600064B32B /* MineHeadView.h */,
+				DDF91AFC1CFC29600064B32B /* MineHeadView.m */,
+				DDF91AFE1CFC29830064B32B /* MineViewController.h */,
+				DDF91AFF1CFC29830064B32B /* MineViewController.m */,
 			);
 			name = "我";
 			sourceTree = "<group>";
@@ -299,16 +319,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB792691CF6EEB800BF63CC /* ColumnViewCell.m in Sources */,
+				DDF91AFD1CFC29600064B32B /* MineHeadView.m in Sources */,
+				DDF91AFA1CFBE4220064B32B /* LiveCell.m in Sources */,
 				DD35B3F51CF10427004B5E6D /* ColumnNavigationController.m in Sources */,
 				DDB792611CF6D25B00BF63CC /* CategoryCell.m in Sources */,
 				DD35B3F81CF11668004B5E6D /* LiveNavigationController.m in Sources */,
 				DD83763E1CEFA65500D6B9BA /* RootTabBarController.m in Sources */,
+				DDF91B001CFC29830064B32B /* MineViewController.m in Sources */,
 				DD35B3FB1CF11A7C004B5E6D /* PersonNavigationController.m in Sources */,
 				DD8376191CEF796A00D6B9BA /* AppDelegate.m in Sources */,
 				DDB792651CF6E99600BF63CC /* ColumnViewController.m in Sources */,
 				DD260B641CF2EB2200779DB4 /* BannerCell.m in Sources */,
 				DD83763B1CEFA52F00D6B9BA /* HomeNavigationController.m in Sources */,
 				DD8376161CEF796A00D6B9BA /* main.m in Sources */,
+				DDF91AF71CFBDCE70064B32B /* LiveCollectionViewController.m in Sources */,
 				DD8376411CEFB33C00D6B9BA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
