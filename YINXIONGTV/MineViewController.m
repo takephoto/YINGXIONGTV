@@ -26,6 +26,8 @@ static NSString *idx = @"MineCell" ;
     
     datas = [NSDictionary dictionaryWithObjectsAndKeys:@[@"我的关注",@"观看历史",@"开播提醒",@"新手任务",@"游戏中心"],@"mine",@[@"系系统设置",@"意见反馈"],@"system",nil] ;
     
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,7 +51,7 @@ static NSString *idx = @"MineCell" ;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    NSString *key = [datas allKeys][section] ;
+    NSString *key = [[[datas allKeys] reverseObjectEnumerator] allObjects][section] ;
     NSArray *functions = [datas objectForKey:key] ;
     
     return functions.count;
@@ -58,7 +60,7 @@ static NSString *idx = @"MineCell" ;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:idx] ;
-    NSString *key = [datas allKeys][indexPath.section] ;
+    NSString *key = [[[datas allKeys] reverseObjectEnumerator] allObjects][indexPath.section] ;
     NSArray *functions = [datas objectForKey:key] ;
     cell.textLabel.text = [functions objectAtIndex:indexPath.row] ;
     cell.textLabel.font = [UIFont systemFontOfSize:14] ;
